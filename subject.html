@@ -1,0 +1,63 @@
+<!doctype html>
+<html lang="ar" dir="rtl">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f3f8f6">
+  <meta name="description" content="صفحة المادة الدراسية ومحاضراتها في منصة G1 HUB.">
+  <title>المادة الدراسية — G1 HUB</title>
+  <link rel="stylesheet" href="css/style.css">
+  <script src="js/data.js" defer></script>
+  <script src="js/app.js" defer></script>
+</head>
+<body class="inner-page" data-page="subject">
+  <header class="site-header">
+    <div class="header-inner">
+      <a class="brand" href="index.html" aria-label="G1 HUB — الرئيسية">
+        <span class="brand-mark" aria-hidden="true"><svg viewBox="0 0 48 48" fill="none"><path d="M8 11.5c6.2-2.2 11.4-.9 16 3.1 4.6-4 9.8-5.3 16-3.1v24c-6.2-2.2-11.4-.9-16 3.1-4.6-4-9.8-5.3-16-3.1v-24Z"/><path d="M24 15v23.5M16 20h4m-4 5h4m12-5h4m-4 5h4"/><path class="brand-cross" d="M24 3v9m-4.5-4.5h9"/></svg></span>
+        <span class="brand-copy"><strong data-group-name>G1 HUB</strong><small data-group-tagline>منصة طلبة التمريض</small></span>
+      </a>
+      <a class="back-link" href="index.html"><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M15 5 8 12l7 7M9 12h11"/></svg><span>العودة للمواد</span></a>
+    </div>
+  </header>
+
+  <main class="inner-main" id="subject-content">
+    <nav class="breadcrumb" aria-label="مسار الصفحة"><a href="index.html">المواد الدراسية</a><span id="subject-parent-divider" aria-hidden="true" hidden>/</span><a id="subject-parent-link" hidden></a><span aria-hidden="true">/</span><span id="subject-breadcrumb">المادة</span></nav>
+    <section class="subject-banner" id="subject-banner" aria-labelledby="subject-title">
+      <div class="subject-banner-copy"><p class="eyebrow"><span></span> مساحة المادة الدراسية</p><h1 id="subject-title">المادة الدراسية</h1><p id="subject-description" class="subject-description"></p></div>
+      <div class="subject-banner-symbol" id="subject-icon" aria-hidden="true"></div>
+      <span class="banner-orbit orbit-one" aria-hidden="true"></span><span class="banner-orbit orbit-two" aria-hidden="true"></span>
+    </section>
+    <section class="rights-resource" id="rights-resource" hidden aria-label="كتاب وفهرست الحقوق والديمقراطية">
+      <article class="rights-book-card">
+        <span class="rights-book-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 11.5c6.2-2.2 11.4-.9 16 3.1 4.6-4 9.8-5.3 16-3.1v24c-6.2-2.2-11.4-.9-16 3.1-4.6-4-9.8-5.3-16-3.1v-24Z"/><path d="M24 15v23.5M16 20h4m-4 5h4m12-5h4m-4 5h4"/></svg></span>
+        <div class="rights-book-copy"><span class="rights-book-kicker">الكتاب الكامل · PDF</span><h2>تحميل كتاب الحقوق والديمقراطية كامل</h2><p>النسخة الكاملة للكتاب بصيغة PDF.</p></div>
+        <a class="rights-download-button" id="rights-book-download" href="#" download><span>تحميل الكتاب</span><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 17v3h14v-3"/></svg></a>
+      </article>
+      <details class="rights-toc-panel" id="rights-toc-panel">
+        <summary class="rights-toc-trigger"><span class="toc-trigger-icon" aria-hidden="true"><svg viewBox="0 0 24 24"><path d="M8 5h12M8 12h12M8 19h12M3.5 5h.01M3.5 12h.01M3.5 19h.01"/></svg></span><span class="toc-trigger-copy"><strong>فهرست الكتاب</strong><small>باب ← فصل ← مبحث</small></span><span class="toc-trigger-action">عرض الفهرست<svg viewBox="0 0 24 24" aria-hidden="true"><path d="m6 9 6 6 6-6"/></svg></span></summary>
+        <div class="rights-toc-tree" id="rights-toc-tree"></div>
+      </details>
+    </section>
+    <section class="subject-options" id="subject-options" hidden aria-labelledby="subject-options-title">
+      <div class="inner-section-title"><div><p class="eyebrow"><span></span> أقسام المادة</p><h2 id="subject-options-title">اختر القسم</h2></div></div>
+      <div class="subject-option-list" id="subject-option-list"></div>
+    </section>
+    <section class="single-resource" id="single-resource" hidden aria-labelledby="single-resource-title">
+      <article class="single-resource-card">
+        <span class="single-resource-icon" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 11.5c6.2-2.2 11.4-.9 16 3.1 4.6-4 9.8-5.3 16-3.1v24c-6.2-2.2-11.4-.9-16 3.1-4.6-4-9.8-5.3-16-3.1v-24Z"/><path d="M24 15v23.5M16 20h4m-4 5h4m12-5h4m-4 5h4"/></svg></span>
+        <div class="single-resource-copy"><span class="single-resource-kicker" id="single-resource-kicker">ملف المادة</span><h2 id="single-resource-title">تحميل الملف</h2><p id="single-resource-description"></p></div>
+        <a class="single-resource-download" id="single-resource-download" href="#" download><svg viewBox="0 0 24 24" aria-hidden="true"><path d="M12 3v12m-5-5 5 5 5-5M5 17v3h14v-3"/></svg><span>تحميل الملف</span></a>
+      </article>
+    </section>
+    <section class="lectures-section" aria-labelledby="lectures-title">
+      <div class="inner-section-title"><div><p class="eyebrow"><span></span> المحتوى الدراسي</p><h2 id="lectures-title">المحاضرات</h2></div><span class="lecture-total" id="lecture-count">0 محاضرات</span></div>
+      <div class="lecture-list" id="lecture-list"></div>
+      <div class="empty-panel" id="lecture-empty" hidden><span class="empty-book" aria-hidden="true"><svg viewBox="0 0 48 48"><path d="M8 11.5c6.2-2.2 11.4-.9 16 3.1 4.6-4 9.8-5.3 16-3.1v24c-6.2-2.2-11.4-.9-16 3.1-4.6-4-9.8-5.3-16-3.1v-24Z"/><path d="M24 15v23.5"/></svg></span><strong>لا توجد محاضرات مضافة حالياً</strong><p>ستظهر المحاضرات هنا عند إضافتها إلى بيانات المادة.</p></div>
+    </section>
+    <div class="missing-panel" id="subject-missing" hidden><strong>المادة غير موجودة</strong><p>قد يكون الرابط غير صحيح أو أن المادة غير متاحة حالياً.</p><a class="primary-link" href="index.html">العودة إلى الصفحة الرئيسية</a></div>
+  </main>
+
+  <footer class="inner-footer"><a href="index.html">G1 HUB</a><span>مساحة دراسية خاصة بالمجموعة</span></footer>
+</body>
+</html>
